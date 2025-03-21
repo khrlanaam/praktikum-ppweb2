@@ -21,12 +21,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Buku Tamu</title>
 </head>
 <body>
    <div class="container">
         <h4>Daftar Kunjungan</h4>
-        <table border="1">
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>Timestamp</th>
